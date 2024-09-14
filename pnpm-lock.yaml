@@ -8,6 +8,18 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/fira-code':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/jetbrains-mono':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/onest':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource/lato':
+        specifier: ^5.1.0
+        version: 5.1.0
       vue:
         specifier: ^3.5.5
         version: 3.5.5
@@ -191,6 +203,18 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/fira-code@5.1.0':
+    resolution: {integrity: sha512-fwJbJLvyZ2BhgBSPYCNsrQ6IFQTpRu9GWXY8N20wHTpbhV0Ro5QJihiZV060Ay3kVR6IVH/oSVe/cr7Ube28gg==}
+
+  '@fontsource-variable/jetbrains-mono@5.1.0':
+    resolution: {integrity: sha512-Hk2HCSep+EmX6nSPNTS3goN0V0TOigdVWcGdnxTVIZIa89HtZAe/zhzFEM1iBXrBShilPwKEdjANHa5plSi38A==}
+
+  '@fontsource-variable/onest@5.1.0':
+    resolution: {integrity: sha512-8jspwmuPWtC2p4gxmjUIQ2JugqCcClFwlD1DEJt+gARgZMm3PI62rYivoKVUDB3Q6hdQxeL5wdzjxCOnzTU5BA==}
+
+  '@fontsource/lato@5.1.0':
+    resolution: {integrity: sha512-wYa/DeUS/WuaJoR/vY+v74W6gtOm98DgoRdSj4FuMXe0E0XYGAEVOgh+DxusJR3EglRZU6ZZDF7vZ881vV1KGA==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -925,6 +949,14 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fontsource-variable/fira-code@5.1.0': {}
+
+  '@fontsource-variable/jetbrains-mono@5.1.0': {}
+
+  '@fontsource-variable/onest@5.1.0': {}
+
+  '@fontsource/lato@5.1.0': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:

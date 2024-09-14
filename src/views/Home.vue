@@ -4,6 +4,5 @@ import Header from '../components/ui/Header.vue';
 </script>
 
 <template>
-    <Header />
     <Inicio />
 </template>

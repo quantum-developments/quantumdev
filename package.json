@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/fira-code": "^5.1.0",
+    "@fontsource-variable/jetbrains-mono": "^5.1.0",
+    "@fontsource-variable/onest": "^5.1.0",
+    "@fontsource/lato": "^5.1.0",
     "vue": "^3.5.5",
     "vue-router": "4.4.5"
   },
